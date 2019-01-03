@@ -1,6 +1,6 @@
 # customer data
 
-customers <- read_csv('AdvWorksCusts.csv', col_types = cols(
+customers <- read_csv('AWCustomers.csv', col_types = cols(
 
   CustomerID = col_integer(),
 
@@ -58,7 +58,7 @@ customers <- read_csv('AdvWorksCusts.csv', col_types = cols(
 
 # sales data
 
-sales <- read_csv('AW_AveMonthSpend.csv', col_types = cols(
+sales <- read_csv('AWSales.csv', col_types = cols(
 
   CustomerID = col_integer(),
 
